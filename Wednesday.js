@@ -10,12 +10,18 @@
 	
 //}
 
-var thom = ["Thom", 1000, "Christchurch"];  // can't change the values unless it's not a const
-var karolin = ["Karolin", 16, "New York"];
-var kristyn = ["Kristyn", 5, "Pittsburgh"];
-var matt = ["Matt H", 186, "Philadelphia"];
 
-thom = ["GameBoy", 1000, "Christchurch
-karolin = ["Karolin", 17, "New York"];
-kristyn = ["Kristyn", 4 "Brooklyn"];
-matt = ["Math H", 186, "Gotham City"];
+var NinjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+
+for(var i = 0;i < NinjaTurtles.length;i++){
+	console.log(NinjaTurtles[i].toUpperCase());
+}
+
+//var thom = ["Thom", 1000, "Christchurch"];  // can't change the values unless it's not a const
+//var karolin = ["Karolin", 16, "New York"];
+//var matt = ["Matt H", 186, "Philadelphia"];
+
+//thom = ["GameBoy", 1000, "Christchurch
+//karolin = ["Karolin", 17, "New York"];
+//matt = ["Math H", 186, "Gotham City"];
+
