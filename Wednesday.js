@@ -20,12 +20,13 @@ var thomsCloset = [
     // These are Thom's pants
     "grey jeans",
     "jeans",
-    "PJs"
+    "PJs", 
   ],[
     // Thom's accessories
     "wool mittens",
     "wool scarf",
-    "raybans"
+    "raybans", 
+    
   ]
 ];
 
@@ -47,6 +48,22 @@ for (var i = 0; i < kristynsCloset.length;i++){
 console.log(thomsCloset[0][0] = "white button-up");
 console.log(thomsCloset[0][1] = "yellow grey button-up");
 console.log(thomsCloset[1][0] = "red jeans");
+
+
+for (var i = 0; i < kristynsCloset.length; i++)
+{
+	console.log("WHIRR: Now washington(item)" + kristynsCloset[i]);
+}
+
+var k = thomsCloset.length;
+console.log(k);
+
+for (var i = 0; i < thomsCloset.length; i++)
+{
+	for(var j = 0; j < thomsCloset[i].length; j++){
+		console.log(thomsCloset[i][j]);
+	}
+}
 
 
 // change the first index to no cowboy boots
