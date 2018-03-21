@@ -10,14 +10,12 @@
 	
 //}
 
-for(var i = 1; i < 100; i++){
-	if(i % 3 == 0){
-		console.log("Fizz");
-	}
-	if(i % 5 == 0){
-		console.log("Buzz");
-	}
-	if(i % 3 === 0 && i % 5 === 0){
-		console.log("FizzBuzz");
-	}
-}
+var thom = ["Thom", 1000, "Christchurch"];  // can't change the values unless it's not a const
+var karolin = ["Karolin", 16, "New York"];
+var kristyn = ["Kristyn", 5, "Pittsburgh"];
+var matt = ["Matt H", 186, "Philadelphia"];
+
+thom = ["GameBoy", 1000, "Christchurch
+karolin = ["Karolin", 17, "New York"];
+kristyn = ["Kristyn", 4 "Brooklyn"];
+matt = ["Math H", 186, "Gotham City"];
