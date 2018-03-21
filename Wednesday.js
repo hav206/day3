@@ -1,27 +1,53 @@
+var kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
 
-//var temp = ["..Human..Why are taking pictures of me", "...The catnip made me doit...",
-//"..Why does the red dot always get awasy.."];
-//for (i = 0; i <= 20; i++){
-	//console.log("Love me, pet me!")
-	//if(i % 2 == 0)
-	//{
-		//console.log(temp[Math.floor(temp.length * Math.random())]);
-	//}
-	
-//}
+// Thom's closet is more complicated. Check out this nested data structure!!
+var thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
 
+//kristynsCloset.push("hello");
+//var kristynsShoe = kristynsCloset.pop();
+//console.log(kristynsShoe);
+var kristynsShoe = kristynsCloset.shift();
+console.log(kristynsShoe);
+thomsCloset.push(kristynsShoe);
 
-var NinjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+kristynsCloset[0] = "no cowboy boots";
+kristynsCloset[1] = "no socks";
+kristynsCloset[2] = "no GA hoodie";
 
-for(var i = 0;i < NinjaTurtles.length;i++){
-	console.log(NinjaTurtles[i].toUpperCase());
+for (var i = 0; i < kristynsCloset.length;i++){
+	console.log(kristynsCloset[i]);
 }
 
-//var thom = ["Thom", 1000, "Christchurch"];  // can't change the values unless it's not a const
-//var karolin = ["Karolin", 16, "New York"];
-//var matt = ["Matt H", 186, "Philadelphia"];
+console.log(thomsCloset[0][0] = "white button-up");
+console.log(thomsCloset[0][1] = "yellow grey button-up");
+console.log(thomsCloset[1][0] = "red jeans");
 
-//thom = ["GameBoy", 1000, "Christchurch
-//karolin = ["Karolin", 17, "New York"];
-//matt = ["Math H", 186, "Gotham City"];
 
+// change the first index to no cowboy boots
+// change the second index of Kristyns to no sock and so on...
