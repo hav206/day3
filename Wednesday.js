@@ -65,6 +65,13 @@ for (var i = 0; i < thomsCloset.length; i++)
 	}
 }
 
+var temp = 0;
+for (var k = 0; k < 100; i++){
+	if(i % 3 == 0 || i % 5 == 0){
+		temp += k;
+	}
+}
+
 
 // change the first index to no cowboy boots
 // change the second index of Kristyns to no sock and so on...
